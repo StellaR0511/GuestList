@@ -42,12 +42,7 @@ function searching()
 				found=found+1;
 			}	
 		}
-	document.getElementById("p2").innerHTML="name found "+found+" time/s";
+	document.getElementById("p2").innerHTML="Name Found "+found+" Time/s";
 	console.log("found name "+found+" time/s");
 }
-function namelist(){
-var ListName = document.getElementById("listname").value;
-document.getElementById("title").textContent= ListName;
-document.getElementById("title2").innerHTML= ListName;
-document.getElementById("hd1").innerHTML= ListName;
-}
+
