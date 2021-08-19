@@ -13,6 +13,11 @@
 input
 {
 	margin: 10px;
+	size:inherit;
+	font-size: 30px;
+	font-family: 'Grenze Gotisch', cursive;
+	color: darkcyan;
+	background-color: #2A2B2DFF;
 }
 .display_name_with_commas
 {
@@ -30,4 +35,37 @@ input
     background-color: lightcoral;
 	border-radius: 10px;
     width: 50%;
+}
+h3{
+	color:teal;
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 30px;
+}
+button{
+	color:lightseagreen;
+	font-family: 'Grenze Gotisch', cursive;
+	size: inherit;
+	font-size: 30px;
+	background-color:#2A2B2DFF;
+}
+div{
+	size: inherit;
+	font-size: 30px;
+	font-family: 'Grenze Gotisch', cursive;
+	color:teal;
+	
+}
+h2{
+	color:teal;
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 40px;
+}
+body{
+	background-color:lightcoral;
+}
+hr{
+	width: 100px;
+	border-top: 5px solid teal;
+	border-radius: 5px;
+
 }

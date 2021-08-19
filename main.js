@@ -45,3 +45,9 @@ function searching()
 	document.getElementById("p2").innerHTML="name found "+found+" time/s";
 	console.log("found name "+found+" time/s");
 }
+function namelist(){
+var ListName = document.getElementById("listname").value;
+document.getElementById("title").textContent= ListName;
+document.getElementById("title2").innerHTML= ListName;
+document.getElementById("hd1").innerHTML= ListName;
+}
